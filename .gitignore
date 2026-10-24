@@ -1,0 +1,17 @@
+config.json
+.env
+.env.*
+!.env.example
+transcripts/
+models/
+node_modules/
+app/.cache*/
+app/dist*/
+*.dmg
+*.app/
+*.pem
+*.key
+.DS_Store
+/capture
+/subtitle
+/translate
