@@ -1108,7 +1108,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, UNUs
             }
             a.addButton(withTitle: L("alert.later"))
             if a.runModal() == .alertFirstButtonReturn {
-                NSWorkspace.shared.open(URL(string: "https://ai.modelfold.online/account?tab=keys&ref=github")!)
+                NSWorkspace.shared.open(URL(string: "https://ai.modelfold.online/account?tab=keys&utm_source=github&utm_medium=readme")!)
             }
         }
     }
@@ -1141,7 +1141,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate, UNUs
         NSWorkspace.shared.open(recordsDir)
     }
 
-    @objc func openKeys() { NSWorkspace.shared.open(URL(string: "https://ai.modelfold.online/account?tab=keys&ref=github")!) }
+    @objc func openKeys() { NSWorkspace.shared.open(URL(string: "https://ai.modelfold.online/account?tab=keys&utm_source=github&utm_medium=readme")!) }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ s: NSApplication) -> Bool { true }
 

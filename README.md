@@ -1,8 +1,8 @@
 # AI Meeting
 
-**AI 问答由 [ModelFold](https://ai.modelfold.online/?ref=github) 提供 · AI answers powered by ModelFold**
+**AI 问答由 [ModelFold](https://ai.modelfold.online/?utm_source=github&utm_medium=readme) 提供 · AI answers powered by ModelFold**
 
-[获取 ModelFold Key / Get an API key](https://ai.modelfold.online/account?tab=keys&ref=github) · [注册 / Sign up](https://ai.modelfold.online/signup?ref=github) · [下载 / Releases](https://github.com/AIModelFold/ai-meeting/releases)
+[获取 ModelFold Key / Get an API key](https://ai.modelfold.online/account?tab=keys&utm_source=github&utm_medium=readme) · [注册 / Sign up](https://ai.modelfold.online/signup?utm_source=github&utm_medium=readme) · [下载 / Releases](https://github.com/AIModelFold/ai-meeting/releases)
 
 Native macOS live captions, local speech recognition, translation and AI meeting Q&A. MIT licensed.
 
@@ -32,7 +32,7 @@ Native macOS live captions, local speech recognition, translation and AI meeting
 1. Open [Releases](https://github.com/AIModelFold/ai-meeting/releases/tag/v1.1), choose `AI-Meeting-1.1-mac-arm64.dmg` or `AI-Meeting-1.1-mac-intel.dmg`.
 2. Drag AI Meeting into Applications. These builds are not notarized. If macOS blocks it, use System Settings → Privacy & Security → Open Anyway, only after checking the source and release checksums.
 3. Launch and allow the model download to finish. Grant recording permissions when starting capture.
-4. [Sign up for ModelFold](https://ai.modelfold.online/signup?ref=github), [create an API key](https://ai.modelfold.online/account?tab=keys&ref=github), and paste it into the app's Key field. Choose the model, then Start.
+4. [Sign up for ModelFold](https://ai.modelfold.online/signup?utm_source=github&utm_medium=readme), [create an API key](https://ai.modelfold.online/account?tab=keys&utm_source=github&utm_medium=readme), and paste it into the app's Key field. Choose the model, then Start.
 
 The packaged app keeps configuration in `~/Library/Application Support/AI Meeting`, notes in `~/Documents/AI Meeting Notes`, and logs in `~/Library/Logs/AI Meeting.log`. Keys are stored locally in the configuration file; do not share it. Never commit transcripts or keys.
 
@@ -92,7 +92,7 @@ Apple 芯片安装包要求 **macOS 26+**；Intel 要求 **macOS 15+、AVX2/FMA*
 1. 在 [v1.1 Release](https://github.com/AIModelFold/ai-meeting/releases/tag/v1.1) 下载对应架构的 dmg，将 AI Meeting 拖入「应用程序」。
 2. 安装包未公证；确认来源及校验值后，如被系统拦截，到「系统设置 → 隐私与安全性 → 仍要打开」。
 3. 打开后等待模型自动下载完成，开始录制时授予对应权限。
-4. [注册 ModelFold](https://ai.modelfold.online/signup?ref=github)，[创建 Key](https://ai.modelfold.online/account?tab=keys&ref=github)，粘贴到应用 Key 栏，选好模型后开始。
+4. [注册 ModelFold](https://ai.modelfold.online/signup?utm_source=github&utm_medium=readme)，[创建 Key](https://ai.modelfold.online/account?tab=keys&utm_source=github&utm_medium=readme)，粘贴到应用 Key 栏，选好模型后开始。
 
 配置保存在「~/Library/Application Support/AI Meeting」，记录在「~/Documents/AI Meeting Notes」，日志在「~/Library/Logs/AI Meeting.log」。Key 保存在本机配置文件中，请勿分享配置或提交会议记录。
 
